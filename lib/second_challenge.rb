@@ -8,6 +8,10 @@ def second_challenge
 
   #code your solution here!
 
-  
-
+  newarray = []
+  newarray >> :dairy.values,
+  newarray >> :vegetable.values,
+  newarray >> :meat.values,
+  newarray >> :grains.values
+  newarray
 end
