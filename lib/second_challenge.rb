@@ -1,13 +1,12 @@
 def second_challenge
   groceries = {
-   dairy: ["milk", "yogurt", "cheese"],
-   vegetable: ["carrots", "broccoli", "cucumbers"],
-   meat: ["chicken", "steak", "salmon"],
-   grains: ["rice", "pasta"]
+    dairy: %w[milk yogurt cheese],
+    vegetable: %w[carrots broccoli cucumbers],
+    meat: %w[chicken steak salmon],
+    grains: %w[rice pasta]
   }
 
   #code your solution here!
 
-  
-
+  groceries.values.flatten
 end
