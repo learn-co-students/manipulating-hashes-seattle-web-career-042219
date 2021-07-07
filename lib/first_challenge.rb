@@ -13,10 +13,8 @@ def first_challenge
     }
   }
 
-  #your code here
-
-
-  #remember to return your newly altered contacts hash!
-  contacts
+    contacts.each do |names, icecream|
+      icecream[:favorite_icecream_flavors].shift["strawberry"]
+    end
 end
 
